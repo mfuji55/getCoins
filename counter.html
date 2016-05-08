@@ -1,0 +1,19 @@
+<html>
+    <head>
+       <title>Counter</title>
+      
+
+    </head>
+    <body>
+    <h1>counter</h1>
+    <h1>{{ session['counter'] }}</h1>
+    <form ACTION='/' method='POST'> 
+    <p><button type="submit" value="submit">Add two to counter</button></p>
+    </form>
+    <form ACTION='/' method='GET'>
+    <p><button type="submit" value="submit">Reset counter to zero</button></p>
+      <!-- read on to learn about form actions, we'll talk about the method in a later section -->
+    </form>
+    
+    </body>
+</html>

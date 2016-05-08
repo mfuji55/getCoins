@@ -1,0 +1,19 @@
+<html>
+    <head>
+    </head>
+    <body>
+  <title>Welcome to the great Number game</title>
+  <h1>I am thinking of a number between 1 and 100.</h1>
+  <h2>Take a guess.</h2>
+
+ <p style="border:solid thick green; border-radius: 1em; 
+          border-width:3px; padding-left:9px; padding-top:6px; 
+          padding-bottom:6px; margin:2px; height: 75px; width:75px;vertical-align: middle;" >
+          Correct!
+          <h2>{{session['randy']}} was the number.</h2>
+  <h2>Play Again?</h2>
+  <form action='/rand' method='GET'> 
+  <input type="submit" value="Play Again!">
+  </form>
+  </body>
+</html>
